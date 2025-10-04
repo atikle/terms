@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <!-- <meta name="description" content="This is description"> -->
+    <meta name="keyword" content="atikle, atikle newsletter, financial news letter, atikle financial news letter">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    
+    <!-- Scripts -->
+    <script src="https://atikle.github.io/framework/universal/theme.js"></script>
+    <script src="https://atikle.github.io/framework/universal/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $("#navbar-placeholder").load("https://atikle.github.io/framework/navbar-1/index.html");
+            $("#footer-placeholder").load("https://atikle.github.io/framework/footer-1/index.html");
+        });
+    </script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://atikle.github.io/framework/universal/brand.css">
+    <link rel="stylesheet" href="https://atikle.github.io/framework/universal/style.css">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK745SP72W"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-CK745SP72W');
+    </script>
+    
+    <style>
+        /* Base Styles */
+        body {
+            background-color: var(--background-4);
+            color: var(--text-color-1);
+            font-family: 'Roboto', sans-serif;
+            transition: background-color var(--transition-speed-normal), color var(--transition-speed-normal);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Layout Container */
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            max-width: 1650px;
+            padding: 20px 5px;
+            margin-top: 64px;
+            box-sizing: border-box;
+        }
+
+        /* Content Card */
+        .content-card {
+            background-color: var(--card-background-1);
+            color: var(--text-color-2);
+            padding: 15px;
+            border-radius: 1rem;
+            transition: background-color var(--transition-speed-normal), box-shadow var(--transition-speed-normal);
+        }
+        .content-card h1, .content-card h3 {
+            color: var(--text-color-1);
+        }
+        .content-card a {
+            color: var(--button-background-1);
+            word-break: break-all;
+        }
+        .content-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Typography */
+        .main-heading {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .last-updated {
+            font-size: 0.875rem;
+            margin-bottom: 2rem;
+        }
+        .text-container {
+            line-height: 1.625;
+        }
+        .text-container > * + * {
+            margin-top: 1.5rem;
+        }
+         .sub-heading {
+            font-size: 1.25rem;
+            font-weight: 600;
+            padding-top: 1rem;
+        }
+        .list {
+            list-style-type: disc;
+            list-style-position: inside;
+            padding-left: 1rem;
+        }
+        .list > * + * {
+            margin-top: 0.5rem;
+        }
+
+        /* Divider */
+        .divider {
+            border-top: 1px solid var(--hover-overlay);
+            margin: 1.5rem 0;
+        }
+        
+        /* Button */
+        .button-container {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .button-primary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            border-radius: 0.5rem;
+            background-color: var(--button-background-1);
+            color: var(--button-text-1);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+            text-decoration: none;
+            transition: background-color var(--transition-speed-normal);
+        }
+        .button-primary:hover {
+            background-color: var(--button-background-3);
+        }
+        .button-primary:focus {
+            outline: 2px solid transparent;
+            outline-offset: 2px;
+            box-shadow: 0 0 0 3px var(--button-background-3);
+        }
+        .button-primary svg {
+            width: 1.25rem;
+            height: 1.25rem;
+            margin-right: 0.5rem;
+        }
+        
+        /* Utility */
+        .text-center { text-align: center; }
+        .font-semibold { font-weight: 600; }
+
+        /* Responsive Styles */
+        @media (min-width: 640px) {
+            .container {
+                padding: 3rem 1rem;
+            }
+            .content-card {
+                padding: 2.5rem;
+            }
+            .main-heading {
+                font-size: 1.875rem;
+            }
+        }
+    </style>
+    
+    <title>atikle connect - Beta Declaration & Terms of Use</title>
+    <link rel="icon" href="https://atikle.github.io/resource/atikle-icon.png" type="image/x-icon">
+</head>
+<body>
+    <div id="overlay-placeholder"></div>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container">
+        <div class="content-card">
+            <h1 class="main-heading">atikle connect - Beta Phase Declaration & Terms of Use</h1>
+            <p class="last-updated"><strong>Last Updated:</strong> September 1, 2025</p>
+
+            <div class="text-container">
+                <p>Welcome to atikle connect! We are excited to have you join our community. Please read the following terms carefully as they govern your use of our platform.</p>
+                <p>atikle connect is currently in a <strong>beta testing phase</strong> and is still under active development. This means that our services are evolving, and you may encounter bugs, errors, or interruptions.</p>
+                <p>By creating an account, accessing, or using the atikle connect platform ("the Service"), you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of this declaration.</p>
+                
+                <div class="divider"></div>
+
+                <h3 class="sub-heading">1. "As-Is" and "As-Available" Service</h3>
+                <p>You agree that you are using the Service at your own risk. The Service is provided on an "AS IS" and "AS AVAILABLE" basis. The owners and operators of atikle connect (the "Owners") expressly disclaim all warranties of any kind, whether express or implied, including, but not to, the implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+                <p>We do not warrant that the Service will meet your specific requirements, that the service will be uninterrupted, timely, secure, or error-free, or that any errors in the Service will be corrected.</p>
+
+                <h3 class="sub-heading">2. Limitation of Liability</h3>
+                <p>To the fullest extent permitted by applicable law, you expressly understand and agree that the Owners of atikle connect shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not to, damages for loss of profits, goodwill, use, data, or other intangible losses (even if we have been advised of the possibility of such damages).</p>
+                <p>This limitation of liability applies to, but is not limited to:</p>
+                <ul class="list">
+                    <li>The use or the inability to use the Service.</li>
+                    <li>The cost of procurement of substitute goods and services.</li>
+                    <li>Unauthorized access to or alteration of your transmissions or data.</li>
+                    <li>Statements or conduct of any third party on the Service.</li>
+                    <li>The loss of any data or content you provide.</li>
+                    <li>Any other matter relating to the Service.</li>
+                </ul>
+
+                <h3 class="sub-heading">3. Beta Phase Acknowledgment</h3>
+                <p>By using the Service, you specifically acknowledge that:</p>
+                <ul class="list">
+                    <li>The Service is a beta version and may not perform as a fully functional commercial service.</li>
+                    <li>Features may be added, modified, or removed without prior notice.</li>
+                    <li>Data, including user-generated content, may be reset or permanently deleted at any time and without liability to you.</li>
+                    <li>We are under no obligation to provide technical support or to continue development of the Service.</li>
+                </ul>
+
+                <h3 class="sub-heading">4. User Responsibilities</h3>
+                <p>You are solely responsible for your conduct, the content you post, and your interactions with other users on atikle connect. You agree not to use the Service for any unlawful purpose or in any way that could harm the Service, its users, or its Owners.</p>
+
+                <h3 class="sub-heading">5. Reporting and Contact</h3>
+                <p>We value your feedback, especially during this beta phase. If you encounter any problems, wish to report inappropriate content or conduct, or have any questions, please contact us exclusively through the official <strong>atikle help center</strong>:</p>
+                <p><a href="https://atikle.github.io/help/contact/form">https://atikle.github.io/help/contact/form</a></p>
+                <p>This is the sole channel for reporting issues. We are not responsible for communications sent through other channels.</p>
+
+                <h3 class="sub-heading">6. Changes to Terms</h3>
+                <p>We reserve the right to modify these terms at any time. We will do our best to notify you of any significant changes, but it is your responsibility to review these terms periodically. Continued use of the Service after any such changes shall constitute your consent to such changes.</p>
+                
+                <div class="divider"></div>
+
+                <p class="font-semibold text-center">By using atikle connect, you confirm your agreement to these terms.</p>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <a href="https://atikle.github.io/terms/connect/terms_of_use.pdf" download="atikle-connect-terms-of-use.pdf" class="button-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+                Download PDF
+            </a>
+        </div>
+    </div>
+    
+    <div id="footer-placeholder"></div>
+</body>
+</html>
